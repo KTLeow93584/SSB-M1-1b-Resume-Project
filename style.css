@@ -1,0 +1,93 @@
+#container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.group-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  margin: 25px;
+}
+
+.portrait {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+#main-panel-left {
+  background-color:white;
+}
+
+.header-panel-left {
+  color: black;
+  margin: 10.5px 4.5px;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.content-margin-left {
+  margin: 8% 7.5%;
+}
+
+.content-panel-left {
+  color: black;
+  margin: 4.5px;
+  font-size: 13px;
+  font-family: Calibri, Helvetica, sans-serif;
+}
+
+.content-panel-title-left {
+  color: black;
+  margin: 4.5px;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: Calibri, Helvetica, sans-serif;
+}
+
+.content-panel-quote-left {
+  color: grey;
+  margin: 4.5px;
+  font-size: 9px;
+  font-family: Calibri, Helvetica, sans-serif;
+}
+
+.content-panel-description-left {
+  color: black;
+  margin: 4.5px;
+  font-size: 12px;
+  font-family: Calibri, Helvetica, sans-serif;
+}
+
+#side-panel-right {
+  width: fit-content;
+  background-color: #1B212F;
+  padding: 0px 35px;
+}
+
+.header-panel-right {
+  color: white;
+  margin: 10.5px 4.5px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.content-margin-right {
+  margin: 8% 15%;
+}
+
+.content-panel-right {
+  color: white;
+  margin: 4.5px;
+  font-size: 13px;
+  font-family: Calibri, Helvetica, sans-serif;
+}
